@@ -26,14 +26,10 @@ export default function CardDashboardWallet({
               
             </div>
             <div className="relative w-auto pl-4 flex-initial">
-              <div
-                className={
-                  "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full " +
-                  statIconColor
-                }
-              >
-                <i className={statIconName}></i>
-              </div>
+              <img src={require("assets/img/flag_usd2.png").default}
+                  className="h-12 w-auto bg-white rounded-full"
+                  alt="...">
+              </img>{" "}
             </div>
           </div>
           <p className="text-sm text-blueGray-400 mt-16">
